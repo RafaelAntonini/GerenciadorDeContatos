@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewContactWindow</class>
+ <widget class="QMainWindow" name="NewContactWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>450</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{ 
+	background-color: rgb(180, 180, 180);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="name">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>100</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(180, 180, 180);
+	border-radius: 5px;
+	padding: 2px;
+	color: rgb(60, 60, 60);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(55, 55, 55);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(255, 207, 0);
+	color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>16</number>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nome: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sobrenome:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="surname">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>140</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(180, 180, 180);
+	border-radius: 5px;
+	padding: 2px;
+	color: rgb(60, 60, 60);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(55, 55, 55);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(255, 207, 0);
+	color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>16</number>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>180</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{	
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border: 2px solid rgb(180, 180, 180);
+	padding-left: 8px;
+}
+QComboBox:on{	
+	border: 4px solid #c2dbfe;	
+}
+QComboBox QListView{
+	font-size: 12px;
+	border: 1x solid rgb(0,0,10%);
+	padding: 5px;
+	background-color: #fff;
+	outline: 0px;
+}</string>
+    </property>
+    <property name="currentText">
+     <string>BR +55</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>BR +55</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ZA +27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AL +355</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DE +49</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AD + 376</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AR +54</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CA +1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CN +86</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CO +57</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KR +82</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AF +93</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>180</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>País:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>220</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Telefone:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="number">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>220</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(180, 180, 180);
+	border-radius: 5px;
+	padding: 2px;
+	color: rgb(60, 60, 60);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(55, 55, 55);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(255, 207, 0);
+	color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+    <property name="placeholderText">
+     <string>(xx) xxxxx-xxxx</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>260</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>E-mail: </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="email">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>260</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(180, 180, 180);
+	border-radius: 5px;
+	padding: 2px;
+	color: rgb(60, 60, 60);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(55, 55, 55);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(255, 207, 0);
+	color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>40</number>
+    </property>
+    <property name="placeholderText">
+     <string>example@hotmail.com</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backButton">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>390</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>450</width>
+      <height>550</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(60, 60, 60);
+	border: 2px solid rgb(180, 180, 180);
+	border-radius: 5px;
+	padding: 2px;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	background-color: rgb(60, 60, 60);
+	border: 2px solid rgb(55, 55, 55);
+}
+QPushButton:pressed{
+	background-color: rgb(250, 230, 0);
+	border: 2px solid rgb(255, 165, 24);
+}</string>
+    </property>
+    <property name="text">
+     <string>Voltar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Novo Contato: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>310</y>
+      <width>171</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(60, 60, 60);
+	border: 2px solid rgb(180, 180, 180);
+	border-radius: 5px;
+	padding: 2px;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	background-color: rgb(60, 60, 60);
+	border: 2px solid rgb(55, 55, 55);
+}
+QPushButton:pressed{
+	background-color: rgb(250, 230, 0);
+	border: 2px solid rgb(255, 165, 24);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>450</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
