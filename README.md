@@ -10,14 +10,14 @@ Este projeto é um aplicativo de Gerenciador de Contatos construído usando Pyth
 -PyQt5
 -SQLite3
 # Estrutura do Projeto
-"main.py": O arquivo principal do aplicativo que executa o Gerenciador de Contatos.
-"db.py": Contém funções para interagir com o banco de dados SQLite.
-"contacts_db.db": O arquivo de banco de dados SQLite que armazena as informações dos contatos.
-"editContact.ui": O arquivo do PyQt5 Designer para a interface de edição de contatos.
-"newContact.ui": O arquivo do PyQt5 Designer para a interface de criar novos contatos.
-"viewContact.ui": O arquivo do PyQt5 Designer para a interface de visualizar os contatos.
-"removeContact.ui": O arquivo do PyQt5 Designer para a interface de remover os contatos.
-"ui.ui": O arquivo do PyQt5 Designer para a interface principal aonde pode escolher as outras opções.
+- "main.py": O arquivo principal do aplicativo que executa o Gerenciador de Contatos.
+- "db.py": Contém funções para interagir com o banco de dados SQLite.
+- "contacts_db.db": O arquivo de banco de dados SQLite que armazena as informações dos contatos.
+- "editContact.ui": O arquivo do PyQt5 Designer para a interface de edição de contatos.
+- "newContact.ui": O arquivo do PyQt5 Designer para a interface de criar novos contatos.
+- "viewContact.ui": O arquivo do PyQt5 Designer para a interface de visualizar os contatos.
+- "removeContact.ui": O arquivo do PyQt5 Designer para a interface de remover os contatos.
+- "ui.ui": O arquivo do PyQt5 Designer para a interface principal aonde pode escolher as outras opções.
 # Instalação
 1. Clone o repositório: git clone <url_do_repositorio>
                         cd contact-manager
