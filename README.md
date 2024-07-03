@@ -6,9 +6,9 @@ Este projeto é um aplicativo de Gerenciador de Contatos construído usando Pyth
 - Excluir Contatos: Usuários podem remover contatos do banco de dados.
 - Visualizar Contatos: Usuários podem ver uma lista de todos os contatos e buscar por contatos específicos.
 # Pré-requisitos
--Python 3.x
--PyQt5
--SQLite3
+- Python 3.x
+- PyQt5
+- SQLite3
 # Estrutura do Projeto
 - "main.py": O arquivo principal do aplicativo que executa o Gerenciador de Contatos.
 - "db.py": Contém funções para interagir com o banco de dados SQLite.
