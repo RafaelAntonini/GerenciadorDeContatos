@@ -24,19 +24,19 @@ Este projeto é um aplicativo de Gerenciador de Contatos construído usando Pyth
 2. Instale os pacotes Python necessários com o comando: pip install PyQt5
 3. Execute o aplicativo: python main.py
 # Uso
-->Adicionar um Contato:
--  Clique no botão "Adicionar".
--  Preencha os detalhes do contato no formulário.
--  Clique em "Salvar" para adicionar o contato ao banco de dados.
-->Editar um Contato:
--  Selecione um contato na lista.
--  Clique no botão "Editar".
--  Atualize os detalhes do contato no formulário.
--  Clique em "Salvar" para atualizar o contato no banco de dados.
-->Excluir um Contato:
--  Selecione um contato na lista.
--  Clique no botão "Excluir".
--  Confirme a exclusão.
-->Visualizar Contatos:
--  Todos os contatos estão listados na interface principal.
--  Use a barra de pesquisa para filtrar contatos por nome ou outros detalhes.
+-  Adicionar um Contato:
+Clique no botão "Adicionar".
+Preencha os detalhes do contato no formulário.
+Clique em "Salvar" para adicionar o contato ao banco de dados.
+-  Editar um Contato:
+Selecione um contato na lista.
+Clique no botão "Editar".
+Atualize os detalhes do contato no formulário.
+Clique em "Salvar" para atualizar o contato no banco de dados.
+-  Excluir um Contato:
+Selecione um contato na lista.
+Clique no botão "Excluir".
+Confirme a exclusão.
+-  Visualizar Contatos:
+Todos os contatos estão listados na interface principal.
+Use a barra de pesquisa para filtrar contatos por nome ou outros detalhes.
